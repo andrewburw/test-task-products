@@ -1,0 +1,33 @@
+
+/* *************************************************************
+|
+|
+|                      Responsive CSS file
+|
+|     I usually use SCSS/SASS (in gulp enviroment),
+|     for better development and code organisation. 
+|
+|      In this file rules for responsive design.
+|      
+|      More info: https://andrewburw.github.io/personalpage/
+|
+|
+| **************************************************************/
+
+@media screen and (max-width: 600px) {
+   
+    .container {
+       
+    padding: 0 20px;
+   
+    
+    }
+
+
+    .main__form-container {
+        padding-top: 50px;
+        min-width: auto;
+      }
+
+
+  }

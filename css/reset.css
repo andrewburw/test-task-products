@@ -1,0 +1,55 @@
+/* *************************************************************
+|
+|
+|                      Main CSS file
+|
+|     I usually use SCSS/SASS (in gulp enviroment),
+|     for better development and code organisation. 
+|
+|      This file is for resetting browser default settings.
+|
+|      More info: https://andrewburw.github.io/personalpage/
+|
+| **************************************************************/
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+input,
+label {
+  display: block;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  position: relative;
+  font-size: 15px;
+}
